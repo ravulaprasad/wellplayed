@@ -1,0 +1,48 @@
+<div class="exercise">
+    <div class="title">
+      <h2>Basic data types in R</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="r" data-height="350">
+      <code data-type="pre-exercise-code"># no pec</code>
+      <code data-type="sample-code">
+        # Change my_numeric to be 42
+        my_numeric &lt;- 42.5
+
+        # Change my_character to be &quot;universe&quot;
+        my_character &lt;- &quot;some text&quot;
+
+        # Change my_logical to be FALSE
+        my_logical &lt;- TRUE
+      </code>
+      <code data-type="solution">
+        # Change my_numeric to be 42
+        my_numeric &lt;- 42
+
+        # Change my_character to be &quot;universe&quot;
+        my_character &lt;- &quot;universe&quot;
+
+        # Change my_logical to be FALSE
+        my_logical &lt;- FALSE
+      </code>
+      <code data-type="sct">
+        test_object(&quot;my_numeric&quot;, incorrect_msg = &quot;Have you correctly changed
+        the
+        declaration of `my_numeric` so it contains the value 42?&quot;)
+        test_object(&quot;my_character&quot;, incorrect_msg = &quot;Have you correctly
+        changed
+        `my_character` to `\&quot;universe\&quot;`? Don&#39;t forget the quotes!&quot;)
+        test_object(&quot;my_logical&quot;, incorrect_msg = &quot;Have you correctly changed
+        `my_logical` to `FALSE`? All letters of `FALSE` should be capitalized!&quot;)
+        success_msg(&quot;Great work! Continue to the next exercise.&quot;)
+      </code>
+      <div data-type="hint">
+        <p>Replace the values in the editor with the values that are provided in the
+          exercise.
+          For example:
+
+          <code>my_numeric &lt;- 42</code> assigns the value 42 to the variable
+          <code>my_numeric</code>.
+        </p>
+      </div>
+    </div>
+  </div>
