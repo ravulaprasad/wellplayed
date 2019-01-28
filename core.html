@@ -17,6 +17,11 @@
 	  padding:0px;
 
     }
+	$(document).ready(function(){
+  $(".btn2").click(function(){
+    $("p").show();
+  });
+});
   </style>
 
   <script async src="https://cdn.datacamp.com/dcl-react-dev.js.gz"></script>
@@ -44,47 +49,43 @@
 				<li>
 					<h2>Top Viewed</h2>
 					<ul>
-						<li><a href="#">Hello World!</a></li>
-						<li><a href="#">Consectetuer adipiscing elit</a></li>
-						<li><a href="#">Metus aliquam pellentesque</a></li>
-						<li><a href="#">Suspendisse iaculis mauris</a></li>
-						<li><a href="#">Urnanet non molestie semper</a></li>
-						<li><a href="#">Proin gravida orci porttitor</a></li>
-						<li><a href="#">Consectetuer adipiscing elit</a></li>
-						<li><a href="#">Metus aliquam pellentesque</a></li>
-						<li><a href="#">Suspendisse iaculis mauris</a></li>
-						<li><a href="#">Urnanet non molestie semper</a></li>
-						<li><a href="#">Proin gravida orci porttitor</a></li>
-						<li><a href="#">Consectetuer adipiscing elit</a></li>
-						<li><a href="#">Metus aliquam pellentesque</a></li>
-						<li><a href="#">Suspendisse iaculis mauris</a></li>
-						<li><a href="#">Urnanet non molestie semper</a></li>
-						<li><a href="#">Proin gravida orci porttitor</a></li>
-						<li><a href="#">Consectetuer adipiscing elit</a></li>
-						<li><a href="#">Metus aliquam pellentesque</a></li>
-						<li><a href="#">Suspendisse iaculis mauris</a></li>
-						<li><a href="#">Urnanet non molestie semper</a></li>
-						<li><a href="#">Proin gravida orci porttitor</a></li>
-						<li><a href="#">Consectetuer adipiscing elit</a></li>
-						<li><a href="#">Metus aliquam pellentesque</a></li>
-						<li><a href="#">Suspendisse iaculis mauris</a></li>
-						<li><a href="#">Urnanet non molestie semper</a></li>
-						<li><a href="#">Proin gravida orci porttitor</a></li>
-						<li><a href="#">Consectetuer adipiscing elit</a></li>
-						<li><a href="#">Metus aliquam pellentesque</a></li>
-						<li><a href="#">Suspendisse iaculis mauris</a></li>
-						<li><a href="#">Urnanet non molestie semper</a></li>
-						<li><a href="#">Proin gravida orci porttitor</a></li>
-						<li><a href="#">Consectetuer adipiscing elit</a></li>
-						<li><a href="#">Metus aliquam pellentesque</a></li>
-						<li><a href="#">Suspendisse iaculis mauris</a></li>
-						<li><a href="#">Urnanet non molestie semper</a></li>
-						<li><a href="#">Proin gravida orci porttitor</a></li>
+						<li><a href="#expando1">Hello World!</a></li>
+						<li><a href="#expando2">Variables</a></li>
+						<li><a href="#expando3">Data Types</a></li>
+						<li><a href="#expando">Immutable & Mutable objects</a></li>
+						<li><a href="#expando">String Data Type</a></li>
+						<li><a href="#expando">List Data Type</a></li>
+						<li><a href="#expando">Set Data Type</a></li>
+						<li><a href="#expando">Dictionary Data Type</a></li>
+						<li><a href="#expando">Operators in Python</a></li>
+						<li><a href="#expando">Arithematic Operator</a></li>
+						<li><a href="#expando">Relation/Conditional Operator</a></li>
+						<li><a href="#expando">Logical Operator</a></li>
+						<li><a href="#expando">Assignment Operator</a></li>
+						<li><a href="#expando">Special Operator</a></li>
+						<li><a href="#expando">Control Flow Structures</a></li>
+						<li><a href="#expando">Selection Control Structure</a></li>
+						<li><a href="#expando">Iterational Control Structure</a></li>
 					</ul>
 				</li>
 			</ul>
 		</div>
+<!-- Topic Starts -->
+<div id="read" style="padding:100px">
+<div>
+	<div class="title">
+      <h2>Core Python</h2>
+	</div>
+	<br>
+	<br>
+	<br>
+	
+	<p>Core Python, deals with the basic aspects of the Python programming language. Chapters One and Two, named What is Python? and Getting Started respectively, give instructions on how to install and configure Python, as well as detailing the basic operators and simple statements. Part One continues to cover Sequences (Lists, Strings and Tuples), Built-in Functions and creating functions, Loops (for-loop, while loop and if-statement being the most common); Modules.</p>
+
+</div>
+<!-- Topic Starts -->
 <div id="read">
+<div class="expando" id="expando1">
 	<div class="title">
       <h2></>Hello World!</></h2>
 	</div>
@@ -115,5 +116,41 @@
     </div>
   </div>
 </div>
+<!-- Topic Ends -->
+
+<!-- Topic Starts -->
+<div id="read">
+<div class="expando" id="expando2">
+	<div class="title">
+      <h2>Variables in Python</h2>
+	</div>
+	<p>A simple program that displays “Hello, World!”. It's often used to illustrate the syntax of the language.</p>
+	<p><strong>What Why When Where & How PRINT?</strong></p>
+	<p>Print is a reserved <strong>Python Keyword</strong> and is a function that outputs to your console window whatever you say you want to print out. At first blush, it might appear that the print function is rather useless for programming, but it is actually one of the most widely used functions in all of python.</p>
+	<p>We can print by using <strong>single apostrophe or double apostrophe</strong> as shown below</p>
+		
+		<code data-type="sample-code">
+        <p>print('Hello World!')  #using single apostrophe<br>
+		print("Hello World!")  #using double apostrophe<br></p>
+		
+		<p>Hello World!<br>
+		Hello World!</p>
+      </code>
+		<!-- end #sidebar -->	
+  <div class="exercise">
+	<div data-datacamp-exercise data-lang="python" data-height="3">
+      <code data-type="pre-exercise-code"></code>
+      <code data-type="sample-code">
+        #print is print the result
+		print('Hello World!')  #method one
+		print("Hello World!")  #method two
+      </code>
+      <code data-type="solution"></code>
+      <code data-type="sct"></code>
+      <div data-type="hint">Just press 'Run'.</div>
+    </div>
+  </div>
+</div>
+<!-- Topic Ends -->
 </body>
 </html>

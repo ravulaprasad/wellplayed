@@ -121,6 +121,15 @@ a:hover {
 	margin: 0px auto;
 }
 
+/* Expando Bits */
+
+.expando {
+  display: none;
+}
+
+.expando:target {
+  display: block;
+}
 /* Search */
 
 #search {
@@ -298,7 +307,7 @@ a:hover {
 	width: auto;
 	height:auto;
 	margin: 0px;
-	padding: 150px;
+	padding: 50px;
 	background: #F0F0F0;
 	border-radius: 0px;
 }
@@ -379,6 +388,7 @@ a:hover {
 #topics {
 	float: left;
 	width: 200px;
+	height:auto;
 	margin: 0px;
 	padding: 40px;
 	background: #F0F0F0;
