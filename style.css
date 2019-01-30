@@ -2,7 +2,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #FFFFFF;
+	background: #F0F0F0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	color: #5B5B5B;
@@ -221,7 +221,7 @@ a:hover {
 	width: 1000px;
 	margin: 0 auto;
 	padding: 60px 0px 0px 0px;
-	background: #FFFFFF;
+	background: #F0F0F0;
 }
 
 /* Content */
@@ -302,15 +302,19 @@ a:hover {
 	text-align: center;
 	text-decoration: none;
 }
+
+
+
 /* read */
 #read{
 	float: center;
 	width: auto;
-	height:auto;
+	height:1000px;
 	margin: 0px;
 	padding: 50px;
 	background: #F0F0F0;
 	border-radius: 0px;
+	padding-right:130px;
 }
 /* Sidebar */
 
@@ -389,11 +393,8 @@ a:hover {
 #topics {
 	float: left;
 	width: 200px;
-<<<<<<< HEAD
 	height:1000px;
-=======
 	height:auto;
->>>>>>> 0dbcac3f1204b8810cb4652532826a8a1abf0dc8
 	margin: 0px;
 	padding: 40px;
 	background: #F0F0F0;
