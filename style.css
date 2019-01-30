@@ -636,12 +636,15 @@ ul.style1 .first {
 #featured-content h2 {
 	padding: 1px 0px 20px 0px;
 	font-size: 0.8 em;
+	margin-right: 1.5%;
+	
 }
 
 #featured-content #column1 {
 	float: left;
 	width:30%;
 	margin-right: 1.5%;
+	
 }
 
 #featured-content #column2 {
