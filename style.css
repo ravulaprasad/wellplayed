@@ -126,7 +126,7 @@ a:hover {
 .expando {
   display: none;
 }
-
+x`
 .expando:target {
   display: block;
 }
@@ -173,7 +173,7 @@ a:hover {
 
 #menu {
 	float: right;
-	width: auto;
+	width: 1024px;
 	height: 100px;
 	margin: 0 auto;
 	padding: 0;
@@ -218,7 +218,7 @@ a:hover {
 /* Page */
 
 #page {
-	width: 1024px;
+	width: auto;
 	margin: 0 auto;
 	padding: 60px 0px 0px 0px;
 	background: #F0F0F0;
@@ -228,26 +228,26 @@ a:hover {
 
 #content {
 	float: left;
-	width: 78%;
-	padding: 0% 0% 0% 0%;
+	width: 85.6%;
+	padding: 0% 0% 0% 5%;
 }
 
 .post {
 	float:left;
 	overflow: hidden;
 	margin-bottom: 0%;
-	width:70%
+	width:50%
 }
 	
 
 .post .title {
-	padding: 7px 0px 40px 0px;
+	padding: 2% 0% 3% 5%;
 	letter-spacing: -1px;
 	width: 70%;
 }
 
 .post .title a {
-	width: 70%;
+	width: 30%;
 	border: none;
 	text-decoration: none;
 	color: #222222;
@@ -327,9 +327,9 @@ a:hover {
 
 #sidebar {
 	float: right;
-	width: 20.3271375%;
-	margin: 0px;
-	padding: 3% 5% 0% 0%;
+	width: 20%;
+	margin: 0%;
+	padding: 2.9% 30% 10% 0%;
 	background: #F0F0F0;
 	border-radius: 0%;
 }
@@ -341,48 +341,47 @@ a:hover {
 }
 
 #sidebar li {
-	margin: 0;
-	padding: 0;
+	margin: 0%;
+	padding: 0%;
 }
 
 #sidebar li ul {
-	margin: 0px 0px;
-	padding-bottom: 30px;
+	margin: 0% 0%;
+	padding-bottom: 10%;
 }
 
 #sidebar li li {
-	line-height: 40px;
+	line-height: 2.5rem;
 	border-bottom: 1px solid #E7EBED;
-	margin: 0px 0px;
+	margin: 0% 0%;
 	border-left: none;
 }
 
 #sidebar li li span {
 	display: block;
-	margin-top: -20px;
+	margin-top: 20%;
 	padding: 0;
-	font-size: 11px;
+	font-size: 2rem;
 	font-style: italic;
 }
 
 #sidebar li li a {
-	padding: 0px 0px 0px 20px;
-	background: url(images/img04.jpg) no-repeat left 50%;
+	padding: 10% 0% 0% 10%;
+	background: url(images/img04.jpg) no-repeat left 80%;
 	text-decoration: none;
 }
 
 #sidebar h2 {
-	height: 38px;
-	padding: 0px 0px 30px 0px;
-	letter-spacing: -.5px;
+	height: 6%;
+	padding: -2% 0% 5% 0%;
 	font-size: 1.8em;
 	color: #222222;
 }
 
 #sidebar p {
-	margin: 0 0px;
-	padding: 0px 30px 20px 30px;
-	text-align: justify;
+	margin: 0 0%;
+	padding: 0% 3% 2% 3%;
+	position:relative;
 }
 
 #sidebar a {
@@ -629,30 +628,30 @@ ul.style1 .first {
 
 #featured-content {
 	overflow: hidden;
-	width: 1000px;
+	width: auto;
 	margin: 0px auto;
-	padding: 0px 0px 30px 0px;
+	padding: 0% 0% 3% 0%	;
 }
 
 #featured-content h2 {
-	padding: 0px 0px 20px 0px;
-	font-size: 30px;
+	padding: 1px 0px 20px 0px;
+	font-size: 0.8 em;
 }
 
 #featured-content #column1 {
 	float: left;
-	width: 300px;
-	margin-right: 50px;
+	width:30%;
+	margin-right: 4%;
 }
 
 #featured-content #column2 {
 	float: left;
-	width: 300px;
+	width: 30%;
 }
 
 #featured-content #column3 {
 	float: right;
-	width: 300px;
+	width: 30%;
 }
 
 .button a {
