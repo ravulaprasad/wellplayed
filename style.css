@@ -173,7 +173,7 @@ a:hover {
 
 #menu {
 	float: right;
-	width: 500px;
+	width: auto;
 	height: 100px;
 	margin: 0 auto;
 	padding: 0;
@@ -302,6 +302,7 @@ a:hover {
 	text-align: center;
 	text-decoration: none;
 }
+
 
 
 
