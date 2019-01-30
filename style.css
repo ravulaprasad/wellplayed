@@ -173,8 +173,8 @@ a:hover {
 
 #menu {
 	float: right;
-	width: 500px;
-	height: 90px;
+	width: 700px;
+	height: 100px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -182,9 +182,10 @@ a:hover {
 #menu ul {
 	float: right;
 	margin: 0;
-	padding: 50px 0px 0px 0px;
+	padding: 26px 0px 0px 0px;
 	list-style: none;
 	line-height: normal;
+
 }
 
 #menu li {
@@ -388,7 +389,11 @@ a:hover {
 #topics {
 	float: left;
 	width: 200px;
+<<<<<<< HEAD
 	height:1000px;
+=======
+	height:auto;
+>>>>>>> 0dbcac3f1204b8810cb4652532826a8a1abf0dc8
 	margin: 0px;
 	padding: 40px;
 	background: #F0F0F0;

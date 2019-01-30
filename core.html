@@ -3,16 +3,26 @@
 <head>
   <meta name="keywords" content="" />
 <meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Let's do python</title>
+<title>I WE YOU PY</title>
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Abel|Satisfy' rel='stylesheet' type='text/css' />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="tipsy.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="typewriter.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
 <link rel='shortcut icon' type='image/x-icon' href='https://www.datacamp.com/assets/favicon.ico'/>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   <style>
     .exercise {
 	  margin: 80px;
     }
+	$(document).ready(function(){
+  $(".btn2").click(function(){
+    $("p").show();
+  });
+});
   </style>
 
   <script async src="https://cdn.datacamp.com/dcl-react-dev.js.gz"></script>
@@ -22,7 +32,16 @@
 	<div id="header-wrapper">
 		<div id="header" class="container">
 			<div id="logo">
-				<h1><a href="index.html">Let's do python</a></h1>
+				<div class="wrapper1">
+				  <div class="letters">
+					<span class="letter">i</span><span class="letter">w</span>
+					<span class="letter">e</span>&nbsp;&nbsp;<span class="letter">y</span><span class="letter">o</span>
+					<span class="letter">u</span>&nbsp;&nbsp;<span class="letter">p</span><span class="letter">y</span>
+				</div>
+			</div>
+			</div>
+			<div class="typewriter">
+				<xmp><>python programming</></xmp>
 			</div>
 			<div id="menu">
 				<ul>
@@ -57,6 +76,20 @@
 						<li><a href="#expando15">Control Flow Structures</a></li>
 						<li><a href="#expando16">Selection Control Structure</a></li>
 						<li><a href="#expando17">Iterational Control Structure</a></li>
+						<li><a href="#expando">Immutable & Mutable objects</a></li>
+						<li><a href="#expando">String Data Type</a></li>
+						<li><a href="#expando">List Data Type</a></li>
+						<li><a href="#expando">Set Data Type</a></li>
+						<li><a href="#expando">Dictionary Data Type</a></li>
+						<li><a href="#expando">Operators in Python</a></li>
+						<li><a href="#expando">Arithematic Operator</a></li>
+						<li><a href="#expando">Relation/Conditional Operator</a></li>
+						<li><a href="#expando">Logical Operator</a></li>
+						<li><a href="#expando">Assignment Operator</a></li>
+						<li><a href="#expando">Special Operator</a></li>
+						<li><a href="#expando">Control Flow Structures</a></li>
+						<li><a href="#expando">Selection Control Structure</a></li>
+						<li><a href="#expando">Iterational Control Structure</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -115,23 +148,21 @@
 	<div class="title">
       <h2>Variables in Python</h2>
 	</div>
-	<ul><li>
-	<p>Python is dynamically typed, which means that you don't have to declare whattype each variable is.In Python, variables are a storage placeholder for texts and numbers.It must have a name so that you are able to find it again.The variable is always assigned with the equal sign, followed by the value of thevariable. </p></li>
-	<p><strong>Rules to create a variable in Python.</strong></p>
-	<p>1. Variable name can contain Alpha,Digit and underscore.</p>
-	<p>2. Variable name must start with an Alpha or underscore.<p>
-	<p>3. Special Charecters are not allowed in Variable name.</p>
-	<p>4. Don't use python Keyword as variable names.</p>
-	
-	</ul>
-	<p><strong>Examples</strong></p>
+	<p>Python is dynamically typed, which means that you don't have to declare whattype each variable is. In Python, variables are a storage placeholder for texts and numbers.It must have a name so that you are able to find it again.The variable is always assigned with the equal sign, followed by the value of the variable. </p>
+		<div style="float:right;padding-right:150px"><p><strong>Examples</strong></p>
 		<code data-type="sample-code">
-		<p>student_id=121&#10004;</p>
-		<p>Student#id=121&#x2717;</p>
-		<p>_Studentid=121&#10004;</p>
-		<p>9Student=121&#x2717;</p>
-		<p>for=121&#x2717;</p>
-      </code>
+		<p><Strong>1.</strong>student_id=121&#10004;</p>
+		<p><Strong>2.</strong>Student#id=121&#x2717;</p>
+		<p><Strong>3.</strong>_Studentid=121&#10004;</p>
+		<p><Strong>4.</strong>9Student=121&#x2717;</p>
+		<p><Strong>5.</strong>for=121&#x2717;</p>
+      </code></div>
+	<p><strong>Rules to create a variable in Python.</strong></p>
+	<p><Strong>1.</strong> Variable name can contain Alpha,Digit and underscore.</p>
+	<p><Strong>2.</strong> Variable name must start with an Alpha or underscore.<p>
+	<p><Strong>3.</strong> Special Charecters are not allowed in Variable name.</p>
+	<p><Strong>4.</strong> Don't use python Keyword as variable names.</p>
+	
 		<!-- end #sidebar -->	
 	 <div class="exercise">
 	<div data-datacamp-exercise data-lang="python" data-height="3">
@@ -140,12 +171,15 @@
         #create a variable and print it
 		x='Hello World!'  #x is variable
 		print(x)          #prints  Hello World! 
-      </code>
+		</code>
       <code data-type="solution"></code>
       <code data-type="sct"></code>
       <div data-type="hint">Just press 'Run'.</div>
     </div>
   </div>
+</div>
+		<!-- end #sidebar -->	
+  
 <!-- Topic Ends -->
 </body>
 </html>
