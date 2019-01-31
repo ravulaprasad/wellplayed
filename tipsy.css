@@ -1,18 +1,19 @@
 .wrapper1 {
   position: absolute;
-  left: 17%;
-  width: 30%;
+  left:49%;
+  width: auto;
   font-size: 0;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
 }
 
-
+.spaceltr{
+	margin-right:5%;
+}
 .letter {
   display: block;
-  margin-right: 1px;
-  top:26px;
-  width: 35px;
+  top:4%;
+  width: auto;
   display: inline-block;
   vertical-align: middle;
   position: relative;
