@@ -57,14 +57,14 @@ a:hover {
 
 #header-wrapper {
 	overflow: hidden;
-	height: 8%;
+	height: 10%;
 	background: #273746;
 }
 
 #header {
 	overflow: hidden;
 	width: auto;
-	height: 8%;
+	height: 60%;
 	margin: 0 auto;
 	padding: 0% 0%;
 }
@@ -169,19 +169,20 @@ a:hover {
 }
 
 /* Menu */
-
 #menu {
 	float: center;
-	width: auto;
-	height: 50%;
+	width: 100%;
+	height: 5%;
 	margin: 0 auto;
 	padding: 0;
+	position:absolute;
 }
 
 #menu ul {
-	float: right;
+	width:auto;
+	float: center;
 	margin: 0;
-	padding: 3%	0% 0% 0%;
+	padding: 1.3% 0% 1% 0%;
 	list-style: none;
 	line-height: normal;
 
@@ -189,16 +190,18 @@ a:hover {
 
 #menu li {
 	float: left;
-	padding: 0% 0% 0% 0%;
+	padding: 0% 0% 0% 4%;
+	width:auto;
 }
 
 #menu a {
+	width:auto;
 	display: block;
-	padding: 10% 20% 10% 20%;
+	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 	text-align: center;
-	font-size: 0.8em;
-	font-weight: 300;
+	font-size: 1em;
+	font-weight: auto;
 	color: #FFFFFF;
 	border: none;
 }
