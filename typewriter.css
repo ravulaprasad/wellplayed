@@ -1,21 +1,20 @@
 
 .typewriter xmp {
-  position: absolute;
-  padding-top:58px;
-  padding-left:38px;
-  float:left;
+  position:absolute;
+  padding-top:8%;
+  width:auto;
+  padding-left:1.8%;
   display: flex;
-  color:#FFD91D;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 9; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   -webkit-animation: 
-  typing 3.5s steps(20, end),
+  typing 3.5s steps(20, end) infinite;,
   blink-caret .5s step-end infinite;
   animation: 
-  typing 3.5s steps(20, end),
+  typing 3.5s steps(20, end) infinite;,
   blink-caret .5s step-end infinite;
 }
 
@@ -33,7 +32,7 @@
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
+    #secondary { width:30%; margin-left:auto;}  
 }
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {

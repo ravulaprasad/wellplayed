@@ -173,15 +173,15 @@ a:hover {
 #menu {
 	float: center;
 	width: auto;
-	height: 10%;
+	height: 50%;
 	margin: 0 auto;
 	padding: 0;
 }
 
 #menu ul {
-	float: center;
+	float: right;
 	margin: 0;
-	padding: 3%	 0% 0% 0%;
+	padding: 3%	0% 0% 0%;
 	list-style: none;
 	line-height: normal;
 
